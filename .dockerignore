@@ -1,0 +1,7 @@
+!README.md
+*.md
+.cache
+.git
+.gitignore
+LICENSE
+
