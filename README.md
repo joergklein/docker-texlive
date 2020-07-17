@@ -1,4 +1,4 @@
-# Docker base image for TEX-Live "Full"
+# Docker base image for TeX-Live "Full"
 
 LaTeX is a shortening of Lamport TeX) is a document preparation system. When
 writing, the writer uses plain text as opposed to the formatted text found in
@@ -23,10 +23,13 @@ Documentation: https://www.tug.org/texlive/
 
 ## Build the image
 
+**Notice:** if the TeX-Live Package to big for your needs, you can change for
+example from `selected_scheme scheme-full to selected_scheme scheme-basic` in
+the texlive.profile.
+
 ```sh
 git clone https://github.com/joergklein/docker-texlive.git
 cd docker-texlive
-Notice: building it's a very long process
 docker build -t texlive .
 ```
 
@@ -41,3 +44,5 @@ make start   # start the container
 make stop    # stop the container
 make rm      # remove the container and free disk space
 ```
+
+**Notice:** in the Makefile the `VERSION = latest`.

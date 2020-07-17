@@ -3,8 +3,6 @@ FROM centos:latest
 LABEL maintainer="Joerg Klein <kwp.klein@gmail.com>" \
       description="Docker base image for TEX-Live"
 
-ENV TEX-Live_VERSION 2020
-
 ENV HOME /root
 WORKDIR /root
 
