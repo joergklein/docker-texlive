@@ -1,4 +1,4 @@
-# Docker base image for TeX-Live "Full"
+# Docker base image for TeX Live "Full"
 
 LaTeX is a shortening of Lamport TeX) is a document preparation system. When
 writing, the writer uses plain text as opposed to the formatted text found in
@@ -10,7 +10,8 @@ A TeX distribution such as TeX Live is used to produce an output file (such as
 PDF or DVI) suitable for printing or digital distribution.
 
 [joergklein/texlive][1] is a [Docker][2].base image in CI builds for document
-authoring systems.
+authoring systems. **TeX Live full automatically installed from the TeX Live
+repository**.
 
 [1]: https://hub.docker.com/r/joergklein/texlive
 [2]: https://docker.com
@@ -23,7 +24,7 @@ Documentation: https://www.tug.org/texlive/
 
 ## Build the image
 
-**Notice:** if the TeX-Live Package to big for your needs, you can change for
+**Notice:** if the TeX Live Package to big for your needs, you can change for
 example from `selected_scheme scheme-full to selected_scheme scheme-basic` in
 the texlive.profile.
 

@@ -1,7 +1,7 @@
 FROM centos:latest
 
 LABEL maintainer="Joerg Klein <kwp.klein@gmail.com>" \
-      description="Docker base image for TEX-Live"
+      description="Docker base image for TeX Live"
 
 ENV HOME /root
 WORKDIR /root
