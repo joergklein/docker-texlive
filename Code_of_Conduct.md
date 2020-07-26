@@ -69,4 +69,4 @@ members of the project's leadership.
 
 This Code of Conduct is adapted from the [Contributor Covenant][1]
 
-  [1]: http://contributor-covenant.org
+[1]: http://contributor-covenant.org

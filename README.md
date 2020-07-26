@@ -28,7 +28,7 @@ If the TeX Live Package to big for your needs, you can change the scheme in the
 texlive.profile.
 
 | Scheme           | Description                              |
-|------------------|------------------------------------------|
+| ---------------- | ---------------------------------------- |
 | scheme-full      | everything                               |
 | scheme-tetex     | more than medium, but nowhere near full  |
 | scheme-medium    | small + more packages and languages      |
