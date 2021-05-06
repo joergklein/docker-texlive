@@ -20,7 +20,7 @@ RUN rm -rf install-tl*
 
 # Export useful Tex-Live paths
 ENV PATH /opt/texbin:$PATH
-ENV PATH /usr/local/texlive/2020/bin/x86_64-linux:$PATH
+ENV PATH /usr/local/texlive/2021/bin/x86_64-linux:$PATH
 
 # Update Tex-Live and Tex-Live manager to the absolute
 RUN tlmgr update --self --all
